@@ -1,0 +1,120 @@
+Vertices:
+[A, B, C]
+
+Edges: 
+from A: [B, C]
+from B: [A]
+from C: []
+
+Vertices:
+[A, B, C]
+
+Edges: 
+from A: [C]
+from B: []
+from C: []
+
+Vertices:
+[A, C]
+
+Edges: 
+from A: [C]
+from C: []
+
+Vertices:
+[A, C]
+
+Edges: 
+from A: [C]
+from C: []
+
+false
+Vertices:
+[A, C]
+
+Edges: 
+from A: [C]
+from C: [A]
+
+true
+Vertices:
+[Peggy, Angie, Steve, Bucky, Natasha, Clint, Wife, Tony, Piper]
+
+Edges: 
+from Peggy: [Angie, Steve]
+from Angie: [Peggy]
+from Steve: [Peggy, Bucky, Natasha, Tony]
+from Bucky: [Steve]
+from Natasha: [Steve, Clint]
+from Clint: [Natasha, Wife]
+from Wife: [Clint]
+from Tony: [Steve, Piper]
+from Piper: [Tony]
+
+[Angie, Steve]
+[Angie, Steve]
+true
+true
+false
+Vertices:
+[A, B, C, D, E]
+
+Edges: 
+from A: [B, C]
+from B: [C, A]
+from C: [A, B]
+from D: [E]
+from E: []
+
+Number of vertices (5):5
+Number of arcs (7):7
+isEdge A<-->B (TRUE):true
+isArc A-->C (TRUE):true
+isEdge D<-->E (FALSE):false
+isArc D -> E (TRUE):true
+isArc E -> D (FALSE):false
+Removing vertex A.
+Adding edge B<-->D
+Number of vertices (4):4
+Number of arcs (5):5
+Vertices:
+[B, C, D, E]
+
+Edges: 
+from B: [C, D]
+from C: [B]
+from D: [E, B]
+from E: []
+
+Adj to B ([C,D]):[C, D]
+Adj to C ([B]):[B]
+Adding A (at the end of vertices).
+Adding B (should be ignored).
+Saving the graph into BCDEA.tgf
+Adding F->G->H->I->J->K->A.
+Vertices:
+[B, C, D, E, A, F, G, H, I, J, K]
+
+Edges: 
+from B: [C, D]
+from C: [B]
+from D: [E, B]
+from E: []
+from A: []
+from F: [G]
+from G: [H]
+from H: [I]
+from I: [J]
+from J: [K]
+from K: [A]
+
+Saving the graph into A-K.tgf
+Vertices:
+[Mandy 52, Dave 72, Jeremy 13, Julia 18]
+
+Edges: 
+from Mandy 52: [Julia 18, Jeremy 13]
+from Dave 72: [Jeremy 13, Julia 18]
+from Jeremy 13: []
+from Julia 18: []
+

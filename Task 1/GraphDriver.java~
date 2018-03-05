@@ -1,0 +1,12 @@
+/**
+ * Driver method for the Task
+ */
+public class GraphDriver {
+  /**
+   * Driver method for the class
+   */
+  public static void main( String[] args ){
+    AdjListsGraph<T> a = new AdjListsGraph<T>( Sample-Graph.tgf );
+    System.out.println( "Verices\n" + a.
+  }
+}

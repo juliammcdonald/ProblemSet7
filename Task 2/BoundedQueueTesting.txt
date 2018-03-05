@@ -1,0 +1,15 @@
+Compiler is using classPath = '[/Users/juliamcdonald/Documents/Freshman/Data Structures/ps07_jmcdona6_xxu2/Task 2, /Users/juliamcdonald/Downloads/drjava-beta-20160913-225446.jar]';  bootClassPath = 'null'
+Queue is full.
+Capacity: 10
+<front of queue>
+0.5
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+

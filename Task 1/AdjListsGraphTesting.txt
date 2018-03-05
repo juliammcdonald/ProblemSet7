@@ -1,0 +1,58 @@
+Vertices:
+[A, B, C]
+
+Edges: 
+from A: [B, C]
+from B: [A]
+from C: []
+
+Vertices:
+[A, B, C]
+
+Edges: 
+from A: [C]
+from B: []
+from C: []
+
+Vertices:
+[A, C]
+
+Edges: 
+from A: [C]
+from C: []
+
+Vertices:
+[A, C]
+
+Edges: 
+from A: [C]
+from C: []
+
+false
+Vertices:
+[A, C]
+
+Edges: 
+from A: [C]
+from C: [A]
+
+true
+Vertices:
+[Peggy, Angie, Steve, Bucky, Natasha, Clint, Wife, Tony, Piper]
+
+Edges: 
+from Peggy: [Angie, Steve]
+from Angie: [Peggy]
+from Steve: [Peggy, Bucky, Natasha, Tony]
+from Bucky: [Steve]
+from Natasha: [Steve, Clint]
+from Clint: [Natasha, Wife]
+from Wife: [Clint]
+from Tony: [Steve, Piper]
+from Piper: [Tony]
+
+[Angie, Steve]
+[Angie, Steve]
+true
+true
+false
